@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #3d5a99;
+    padding: 10px 0;
+}
+
+header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.logo-area {
+    width: 30%;
+    float: left;
+}
+
+.logo-area img {
+    width: 160px;
+    margin-top: 15px;
+}
+
+.login-area {
+    width: 70%;
+    float: left;
+    color: white;
+}
+
+.login-area form {
+    float: right;
+}
+
+.login-area label,
+input {
+    display: block;
+}
+
+.login-area label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.login-area .email,
+.pass,
+.submit {
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .submit {
+    margin-right: 0;
+}
+
+.login-area #email,
+#password {
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 5px;
+    font-family: lato;
+}
+
+.login-area .pass a {
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-area .pass a:hover {
+    text-decoration: underline;
+}
+
+.login-area input[type="submit"] {
+    background: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    padding: 2px 5px;
+    font-weight: 400;
+    margin-top: 21px;
+}
+
+
+/* end header*/
+
+main {
+    padding: 20px 0;
+    background: linear-gradient(#fff, #D4D9F5);
+}
+
+main::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.left {
+    width: 58%;
+    float: left;
+}
+
+.left p {
+    font-size: 20px;
+    color: #0e385f;
+    width: 80%;
+    font-weight: 600;
+}
+
+.left img {
+    width: 90%;
+}
+
+.right {
+    width: 42%;
+    float: left;
+}
+
+.right h2 {
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+}
+
+.right h4 {
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    margin: 5px 0px 10px 0px;
+}
+
+.sign-up-form input[type="text"],
+.sign-up-form input[type="password"] {
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.full-name {
+    overflow: hidden;
+}
+
+.full-name .first {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.full-name .sure {
+    width: 48%;
+    float: left;
+}
+
+.h-birthday {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.birthday {
+    overflow: hidden;
+}
+
+.birthday select {
+    border: 1px solid #ccd0d5;
+    float: left;
+    padding: 5px;
+}
+
+abbr {
+    margin: 0 5px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 1px;
+    background: rgb(207, 193, 193);
+}
+
+.gender {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.gender p {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gender input[type="radio"],
+.gender label {
+    float: left;
+}
+
+.gender label {
+    color: #1d2129;
+    font-size: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.policy {
+    color: #777;
+    font-size: 11px;
+    width: 74%;
+}
+
+.policy a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.policy a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 20px 0 30px 0;
+}
+
+.btn input {
+    background: linear-gradient(#79bc64, #578843);
+    padding: 7px 20px;
+    min-width: 194px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    box-shadow: inset 0px 1px 1px #a4e388;
+    border: 1px solid #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    color: white;
+    transition: 300ms;
+}
+
+.btn input:hover {
+    background: linear-gradient( #578843, #79bc64);
+    cursor: pointer;
+}
+
+.band {
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.band a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.band a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* start footer area*/
+footer{
+    padding: 20px 0;
+}
+footer ul,
+footer span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #385898;
+    cursor: pointer;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+.top a{
+    margin-right: 5px;
+}
+.middle a{
+    margin-right: 10px;
+
+}
+.top .active,
+.end span{
+    color: #737373;
+}
+hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+
+}
+.end{
+    margin-top: 20px;
+}
